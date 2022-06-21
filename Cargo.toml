@@ -1,0 +1,11 @@
+[package]
+name = "tp-cli"
+version = "0.1.0"
+edition = "2021"
+description = "This is a cli tool to simplify the process of cd-ing into your common directories."
+license = "MIT"
+
+[dependencies]
+clap = { version = "3.2.5", features = ["derive"] }
+serde = { version = "1.0.137", features = ["derive"] }
+ron = "0.7.1"
