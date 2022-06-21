@@ -28,3 +28,7 @@ Consider other options, there are much better tools than this one serving the sa
 ## Then why?
 
 I do use it myself because I prefer to make my own tools instead of using someone else's.
+
+## Author
+
+JOLIMAITRE Matthieu <matthieu@imagevo.fr>
