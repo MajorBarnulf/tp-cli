@@ -34,11 +34,6 @@ fn is_alias_setup(arguments: &Params) -> bool {
     arguments.setup && result.is_ok()
 }
 
-#[test]
-fn test() {
-    //    dbg!(is_alias_setup());
-}
-
 fn setup_alias() {
     let result = fs::create_dir(local_path());
     if let Err(error) = &result {
